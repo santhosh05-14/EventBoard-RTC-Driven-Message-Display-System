@@ -97,6 +97,45 @@ The Event Board can be effectively used in **offices for meeting reminders, scho
 
 ---
 
+## Project Structure
+
+```text
+EventBoard-RTC-Driven-Message-Display-System/
+│
+├── adc.c
+├── admin.c
+├── delay.c
+├── event.c
+├── kpm.c
+├── lcd.c
+├── main.c
+├── rtc.c
+├── adc.h
+├── adc_defines.h
+├── admin.h
+├── defines.h
+├── delay.h
+├── event.h
+├── kpm.h
+├── kpmdefines.h
+├── lcd.h
+├── lcddefines.h
+├── rtc.h
+├── types.h
+│
+├── blockdiagram.png
+│
+├── images/
+│   ├── image1.png
+│   ├── image2.png
+│   └── image3.png
+│
+├── videos/
+│   └── video.gif
+│
+└── README.md
+```
+
 ## Applications
 
 - Office meeting reminders  
