@@ -31,6 +31,13 @@ The Event Board can be effectively used in **offices for meeting reminders, scho
   <img src="blockdiagram.png" alt="Block Diagram" width="500">
 </p>
 
+## Project Images
+
+<p float="left">
+  <img src="image1.png" width="500"/>
+  <img src="image2.png" width="500"/>
+  <img src="image3.png" width="500"/>
+</p>
 
 ## Demo Videos
 
