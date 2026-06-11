@@ -1,6 +1,6 @@
-# ⏰ EventBoard: RTC-Driven Message Display System
+# EventBoard: RTC-Driven Message Display System
 
-## 📌 Overview
+##  Overview
 
 The **Event Board: RTC-Driven Message Display System** is an embedded real-time application designed to automate the display of time-based messages using a **Real-Time Clock (RTC)** module. The system continuously keeps track of the current date and time and dynamically displays relevant event messages on an LCD screen whenever a scheduled condition is met.
 
@@ -16,7 +16,7 @@ The Event Board can be effectively used in **offices for meeting reminders, scho
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 - To design an RTC-based real-time event display system  
 - To display scheduled messages based on current time  
@@ -28,11 +28,11 @@ The Event Board can be effectively used in **offices for meeting reminders, scho
 ## Block Diagram
 
 <p align="center">
-  <img src="blockdiagram.png" alt="Block Diagram" width="800">
+  <img src="blockdiagram.png" alt="Block Diagram" width="500">
 </p>
 
 ---
-## 🛠️ Hardware Requirements
+##  Hardware Requirements
 
 - RTC Module (DS1307 / equivalent)  
 - LCD Display (16x2)  
@@ -42,7 +42,7 @@ The Event Board can be effectively used in **offices for meeting reminders, scho
 
 ---
 
-## 💻 Software Requirements
+##  Software Requirements
 
 - Embedded C Programming  
 - Keil uVision IDE  
@@ -50,7 +50,7 @@ The Event Board can be effectively used in **offices for meeting reminders, scho
 
 ---
 
-## ⚙️ Working Principle
+##  Working Principle
 
 1. RTC continuously maintains current date and time.  
 2. System reads RTC time periodically.  
@@ -62,7 +62,7 @@ The Event Board can be effectively used in **offices for meeting reminders, scho
 
 ---
 
-## 🔧 Features
+##  Features
 
 - Real-time clock and calendar display  
 - Automatic event message triggering  
@@ -73,7 +73,7 @@ The Event Board can be effectively used in **offices for meeting reminders, scho
 
 ---
 
-## 🧩 Modules Used
+##  Modules Used
 
 - RTC Interface Module  
 - LCD Display Module  
@@ -83,36 +83,7 @@ The Event Board can be effectively used in **offices for meeting reminders, scho
 
 ---
 
-## 📂 Project Structure
-
-```text
-EventBoard-RTC-Driven-Message-Display/
-│
-├── main.c
-├── rtc.c
-├── rtc.h
-├── lcd.c
-├── lcd.h
-├── keypad.c
-├── keypad.h
-├── interrupt.c
-├── interrupt.h
-├── delay.c
-├── delay.h
-├── define.h
-├── types.h
-│
-├── block_diagram.png
-│
-├── images/
-│   ├── image1.jpeg
-│   ├── image2.jpeg
-│   ├── image3.jpeg
-│   ├── image4.jpeg
-│
-└── README.md
-
-## 🚀 Applications
+## Applications
 
 - Office meeting reminders  
 - School timetable display systems  
@@ -122,31 +93,31 @@ EventBoard-RTC-Driven-Message-Display/
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
-- IoT-based remote scheduling  
-- Mobile app integration  
-- Cloud-based event updates  
-- Voice-controlled event entry  
-- Large LED display support  
+- IoT-based remote scheduling system  
+- Mobile application integration  
+- Cloud-based event synchronization  
+- Voice-controlled event entry system  
+- Support for large LED display panels  
 
 ---
 
-## 🎯 Project Outcomes
+##  Project Outcomes
 
-- Developed an RTC-based event display system using Embedded C  
+- Developed an **RTC-based event display system** using Embedded C  
 - Implemented real-time clock interfacing for accurate time tracking  
-- Enabled automatic message display based on scheduled time  
-- Integrated keypad for user interaction and event setup  
-- Used interrupt-driven design for efficient operation  
-- Strengthened understanding of RTC, LCD, and embedded system design  
+- Enabled automatic message display based on scheduled time events  
+- Integrated keypad for user interaction and event configuration  
+- Used interrupt-driven design for efficient and real-time operation  
+- Strengthened understanding of RTC, LCD interfacing, and embedded system concepts  
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 
-The **EventBoard: RTC-Driven Message Display System** was successfully designed and implemented using Embedded C. The system efficiently uses RTC to maintain accurate time and displays scheduled messages on an LCD screen.
+The **EventBoard: RTC-Driven Message Display System** was successfully designed and implemented using Embedded C. The system efficiently utilizes the RTC module to maintain accurate time and automatically displays scheduled messages on an LCD screen.
 
-The integration of RTC, LCD, keypad, and interrupt handling ensures smooth and reliable operation. The system is simple, efficient, and suitable for real-time reminder and scheduling applications.
+The integration of RTC, LCD, keypad, and interrupt handling ensures smooth and reliable operation. The system is simple, efficient, and well-suited for real-time reminder and scheduling applications.
 
-Overall, this project demonstrates strong fundamentals in embedded systems, RTC interfacing, and hardware-software integration.
+Overall, this project demonstrates strong fundamentals in embedded systems design, RTC interfacing, and hardware–software integration.
