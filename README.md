@@ -31,6 +31,13 @@ The Event Board can be effectively used in **offices for meeting reminders, scho
   <img src="blockdiagram.png" alt="Block Diagram" width="500">
 </p>
 
+
+## Demo Videos
+
+  <p float="left">
+  <img src="video.gif" width="500"/>
+</p>
+
 ---
 ##  Hardware Requirements
 
