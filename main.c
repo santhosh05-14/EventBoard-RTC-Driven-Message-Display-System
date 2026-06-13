@@ -1,3 +1,23 @@
+/*
+ * main.c
+ *
+ * Description:
+ * ------------
+ * This is the main application file of the RTC-Driven Message
+ * Display System. The system continuously monitors real-time
+ * clock data and displays scheduled messages on an LCD screen.
+ *
+ * Responsibilities:
+ * - Initializes RTC, LCD, Keypad, and ADC peripherals.
+ * - Configures RTC date, time, and day information.
+ * - Continuously reads current time and date.
+ * - Checks for scheduled events and displays messages.
+ * - Monitors admin switch for configuration mode.
+ * - Reads temperature using ADC.
+ * - Displays real-time clock information and temperature.
+ * - Provides event-based message display functionality.
+ */
+
 #include <lpc214x.h>
 #include "lcddefines.h"
 #include "rtc.h"
@@ -14,9 +34,25 @@ u32 temperature;      /* Stores ADC-based temperature value */
 
 int main()
 {
-    s32 hour, min, sec, date, month, year, day;
-    int holdcount = 0;
-    char msg;
+    
+    /* Stores current RTC time information */
+s32 hour;      // Current hour
+s32 min;       // Current minute
+s32 sec;       // Current second
+
+/* Stores current RTC date information */
+s32 date;      // Current date
+s32 month;     // Current month
+s32 year;      // Current year
+
+/* Stores current day information */
+s32 day;
+
+/* Used to detect long press of admin switch */
+int holdcount;
+
+/* Variable for message handling */
+char msg;
 
     InitLCD();         /* Initialize LCD display */
     RTC_Init();        /* Initialize RTC module */
