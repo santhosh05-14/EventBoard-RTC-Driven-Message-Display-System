@@ -33,7 +33,7 @@
 ## Project Images And Videos
 
 https://drive.google.com/drive/folders/1Ky_nqXD2Hd60B0cYyf1-Q150xJhmVcuD?usp=drive_link
----
+
 ##  Hardware Requirements
 
 - RTC Module (DS1307 / equivalent)  
